@@ -1,61 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhay | Data Analyst</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    header {
+      padding: 80px 20px;
       text-align: center;
+      background: #111827;
     }
 
-    h1 {
-      color: #2c3e50;
-      margin-top: 60px;
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
     }
 
-    p {
-      color: #555;
+    header p {
       font-size: 18px;
+      color: #94a3b8;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: #60a5fa;
+      margin-bottom: 20px;
     }
 
     .card {
-      background: white;
-      padding: 30px;
-      margin: 50px auto;
-      width: 60%;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
 
-    button {
-      padding: 10px 20px;
-      border: none;
-      background: #3498db;
-      color: white;
+    .skills span {
+      display: inline-block;
+      background: #334155;
+      padding: 8px 12px;
+      margin: 5px;
       border-radius: 6px;
-      cursor: pointer;
+      font-size: 14px;
     }
 
-    button:hover {
-      background: #2980b9;
+    footer {
+      text-align: center;
+      padding: 40px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="card">
-    <h1>Welcome to my website 👋</h1>
-    <p>I just built my first styled website using GitHub Pages!</p>
+  <header>
+    <h1>Hi, I'm Jhay 👋</h1>
+    <p>Data Analyst | SQL | Power BI | Python</p>
+  </header>
 
-    <button onclick="alert('Hello! 🚀')">
-      Click Me
-    </button>
-  </div>
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      I am a Data Analyst with experience in SQL, Python, and Power BI.
+      I specialise in turning raw data into actionable insights and dashboards
+      that support business decisions.
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="card skills">
+      <span>SQL</span>
+      <span>Python</span>
+      <span>Power BI</span>
+      <span>Excel</span>
+      <span>Data Visualisation</span>
+      <span>Reporting</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="card">
+      <b>Sales Dashboard</b><br>
+      Built an interactive Power BI dashboard to track sales performance and KPIs.
+    </div>
+
+    <div class="card">
+      <b>Customer Analysis</b><br>
+      Used Python and SQL to segment customers and identify behaviour trends.
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      Email: yourname@email.com<br>
+      LinkedIn: <a href="#">Add your link</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Jhay | Built with GitHub Pages
+  </footer>
 
 </body>
 </html>
